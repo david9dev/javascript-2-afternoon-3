@@ -178,6 +178,12 @@ each(names, function(item, indice){
 */
 
 // Code here
+function getUserById(array, id , callback)
+{
+  var foundUser = {};
+  foundUser = array.find((curVal) => { return curVal.id === id})
+  callback(foundUser);
+}
 
 // Do not edit the code below.
 var users = [
