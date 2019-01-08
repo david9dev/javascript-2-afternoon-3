@@ -74,6 +74,11 @@ last(names, function(lastName){
 */
 
 //Code Here
+function multiply(num1, num2, callback)
+{
+  var multiplied = num1 * num2;
+  callback(multiplied);
+}
 
 // Do not edit the code below.
 multiply(4, 3, function(answer){
