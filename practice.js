@@ -157,6 +157,10 @@ uniq(names, function(uniqArr){
 */
 
 //Code Here 
+function each(array, callback)
+{
+  array.forEach((curVal, index) => {callback(curVal, index)});
+}
 
 // Do not edit the code below.
 each(names, function(item, indice){
