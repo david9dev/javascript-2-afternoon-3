@@ -100,7 +100,7 @@ multiply(4, 3, function(answer){
 //Code Here
 function contains(array, name, callback)
 {
-  if(array.includes(name))
+  if(array.includes(name) === true)
   {
     callback(true);
   }
