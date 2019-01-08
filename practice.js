@@ -52,6 +52,10 @@ first(names, function(firstName){
 */
 
 //Code Here
+function last(array, callback)
+{
+  callback(array[array.length - 1]);
+}
 
 // Do not edit the code below.
 last(names, function(lastName){
