@@ -97,7 +97,15 @@ multiply(4, 3, function(answer){
   If the name does not exist, invoke the callback with false as the argument.
 */
 
-//Code Here 
+//Code Here
+function contains(array, name, callback)
+{
+  if(array.includes(name))
+  {
+    callback(true);
+  }
+  else callback(false);
+} 
 
 // Do not edit the code below.
 contains(names, 'Colt', function(result){
