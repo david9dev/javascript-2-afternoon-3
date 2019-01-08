@@ -28,6 +28,10 @@
 */
 
 // Code Here 
+function first(array, callback)
+{
+  callback(array[0]);
+}
 
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
